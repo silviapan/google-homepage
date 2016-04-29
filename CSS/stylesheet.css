@@ -1,0 +1,125 @@
+/* Main - Logo and Search Form */
+
+#logo {padding: 200px 0 30px 0;}
+
+#logo, input[type="text"] {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+input {
+	font: 13px/30px arial,sans-serif;
+}
+
+input[type="text"] {
+	width: 580px;
+	height: 35px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+input[type="text"]:hover {
+	border: 1px solid #999;
+}
+
+.buttonHolder {text-align: center;}
+
+input[type="submit"] {
+	background-color: #eee;
+	margin: 0 5px 0 5px;
+	padding: 2px 15px 2px 15px;
+	border: 1px solid #eee;
+	font-weight: bold; color: #777;
+
+}
+
+input[type="submit"]:hover {
+	border: 1px solid #555;
+	color: #555;
+}
+
+/*Navigation Bars*/
+
+
+ul {
+	list-style-type: none;
+	margin: 0; padding: 0;
+}
+
+li {
+	display: inline;
+	font: 13px/24px arial,sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	margin: 0;
+	line-height: 40px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.topnav {
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	margin-top: 10px;
+}
+
+.topnav a {
+	padding: 8px;
+	color: #333;
+}
+
+.t_right {
+	float: right;
+	margin-right: 20px;
+}
+
+#grid {
+	vertical-align: middle;
+	padding: 8px;
+}
+
+#signin {
+	background-color: #4285F4;
+	padding: 7px 5px 7px 5px;
+	margin-right: 10px;
+}
+
+#signin a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.bottomnav {
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	background-color: #eee;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+}
+
+.b_left {
+	position: relative;
+	float: left;
+	margin-left: 16px;
+}
+
+.b_right {
+	position: relative;
+	float: right;
+	margin-right: 16px;
+}
+
+.bottomnav a {
+	padding: 0 15px 0 15px;
+	color: #777;
+}
